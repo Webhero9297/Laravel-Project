@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--pro-->
+<html>
+<head>
+	<title>Subrow excell</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<link rel="stylesheet" type="text/css" href="../../../codebase/fonts/font_roboto/roboto.css"/>
+	<link rel="stylesheet" type="text/css" href="../../../codebase/dhtmlx.css"/>
+	<script src="../../../codebase/dhtmlx.js"></script>
+	<style>.even{	background-color:#E6E6FA;}.uneven{	background-color:#F0F8FF;}
+	</style>
+	<script>
+	
+var xmlStr = "<rows><row id='1' class='alesa'><userdata name='ud2'>Some+</userdata><cell><![CDATA[<strong>A Time to Kill</strong> is the name of a legal suspense thriller authored by John Grisham in 1989. Grisham's first novel, it was rejected by many publishers before Wynwood Press eventually gave it a modest 5,000-copy printing. After The Firm, The Pelican Brief, and The Client became bestsellers, interest in A Time to Kill grew, the book was republished by Doubleday in hardcover and then by Dell Publishing in paperback, and became a bestseller as well.]]></cell><cell>Time to Kill</cell><cell>John Grisham</cell><cell>12.99</cell><cell>1</cell><cell>24</cell><cell>0</cell><cell>05/01/1998</cell></row><row id='2'><cell><![CDATA[<strong>Stephen King</strong> had such fun recording the epic, unabridged audio version of his haunting novel Bag of Bones, he decided to publish the three-story collection <strong>Blood and Smoke</strong> exclusively on audio. They're horror stories, good and dark, loosely linked by the theme of cigarettes and a macabre humor. The flip-top cigarette-box package is amusingly cool, too. <br/><br/>In the first tale, 'Lunch at the Gotham Café,' Steve Davis quits smoking two days after his wife dumps him. King cleverly compares the two kinds of withdrawal: obsession blends with emotional flatness, and you're left 'with a feeling the world has taken on a decidedly dreamy cast.' Driven, Steve meets with his wife and her lawyer at a midtown Manhattan restaurant, where the nightmare begins. 'I was pretty sure something was wrong with the maitre d' almost as soon as I saw him,' says Steve, and gothic café events soon prove him right.]]></cell><cell>Some text there</cell><cell>Blood and Smoke</cell><cell>Stephen King</cell><cell>0</cell><cell>1</cell><cell>24</cell><cell>0</cell><cell>01/01/2000</cell></row></rows>";
+	var myGrid;function doOnLoad(){	myGrid = new dhtmlXGridObject('gridbox');	myGrid.setImagePath("../../../codebase/imgs/");	myGrid.setHeader("&nbsp;,Book,Author,Price,In Store,Shipping,Bestseller,Date");	myGrid.setInitWidths("30,140,120,80,80,80,80,100");	myGrid.setColAlign("right,left,left,right,center,left,center,center");	myGrid.setColTypes("sub_row,edtxt,ed,price,ch,co,ra,ro");	myGrid.setColSorting("na,str,str,int,int,int,na,na");	myGrid.enableAutoWidth(true);	myGrid.enableAutoHeight(true);	myGrid.init();	myGrid.parse(xmlStr, 'xml');}
+	</script>
+</head>
+<body onload="doOnLoad();">
+	<h1>Subrow excell</h1>
+	<p>There is a possibility to set subrows using "sub_row" excell. Try to click plus sign.</p>
+	<div id="gridbox" style="width: 750px; height: 350px; background-color:white;"></div>
+	<br/>
+	<input type="button" name="a1" value="add row" onClick="myGrid.addRow((new Date()).valueOf(),[1,2,3,4,5],1)">
+	<input type="button" name="a1" value="delete row" onClick="myGrid.deleteRow(myGrid.getSelectedId())">
+</body>
+</html>

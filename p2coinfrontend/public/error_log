@@ -1,0 +1,1 @@
+[16-Jun-2017 10:10:05 UTC] PHP Fatal error:  Class 'App\Http\Controllers\User' not found in /home/ptwocoin/public_html/devsite/app/Http/Controllers/VerifyController.php on line 35

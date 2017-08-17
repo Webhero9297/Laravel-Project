@@ -1,0 +1,11 @@
+{"web":{
+    "client_id":"567336865084-hh90eksn0e5d63kfjd4hos61agkpapqc.apps.googleusercontent.com",
+    "project_id":"gdrive-167107",
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"cGCZW7BF_JZYaIFIo-_BrDzj",
+    "redirect_uris":["http://localhost:8000/auth/google/callback/"],
+    "javascript_origins":["http://localhost:8000"]
+    }
+}

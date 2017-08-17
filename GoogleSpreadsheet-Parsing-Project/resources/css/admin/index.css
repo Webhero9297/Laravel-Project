@@ -1,0 +1,68 @@
+.picker-btn {
+    border:1px solid #ffffff;border-radius: 5px;
+}
+.text-right{
+    text-align: right;
+}
+.middle-text{
+    text-align:center;
+    font-weight:bold;
+}
+.form-settings{
+    padding:20px;
+}
+.cell-tr{
+    border:grey 1px solid;
+}
+.cell-tr:hover{
+    background-color:c9c9ff;
+}
+.status-btn {
+    cursor: pointer;
+}
+.status-btn:hover {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.selected_item{
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.status-tr {
+    cursor: pointer;
+}
+.status-tr:hover {
+    color:red;
+    outline: -webkit-focus-ring-color auto 3px;
+}
+.focus{
+    outline: -webkit-focus-ring-color auto 5px;
+}
+@media(min-width: 768px){
+    .main-analyze-div{
+        min-height:400px;
+    }
+}
+.treegrid_table{
+    width:100%;
+}
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.3;
+    background-color:blue;
+    z-index: 2000;
+}
+
+ol.dd-list li.placeholder {
+    position: relative;
+    /** More li styles **/
+}
+ol.dd-list li.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+}
+.search-field{
+    display: inline-flex!important;
+}

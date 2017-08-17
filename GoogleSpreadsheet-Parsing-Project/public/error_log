@@ -1,0 +1,16 @@
+[22-Jun-2017 03:26:39 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home1/goldserv/public_html/gp/storage/framework/views/9c9f3779564f33071bfaefa0894b1f13376a1427.php on line 142
+[22-Jun-2017 03:27:23 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home1/goldserv/public_html/gp/storage/framework/views/9c9f3779564f33071bfaefa0894b1f13376a1427.php on line 142
+[02-Jul-2017 08:14:08 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home1/goldserv/public_html/gp/storage/framework/views/9c9f3779564f33071bfaefa0894b1f13376a1427.php on line 279
+[02-Jul-2017 08:14:55 UTC] PHP Fatal error:  Call to undefined function html_encode() in /home1/goldserv/public_html/gp/storage/framework/views/9c9f3779564f33071bfaefa0894b1f13376a1427.php on line 279
+[02-Jul-2017 08:18:04 UTC] PHP Fatal error:  Call to undefined function html_entity_encode() in /home1/goldserv/public_html/gp/storage/framework/views/9c9f3779564f33071bfaefa0894b1f13376a1427.php on line 279
+[02-Jul-2017 09:16:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/goldserv/public_html/gp/app/Http/Controllers/AdminController.php on line 138
+[02-Jul-2017 09:17:37 UTC] PHP Fatal error:  Call to a member function getMimeType() on string in /home1/goldserv/public_html/gp/app/Models/GoogleDrvObj.php on line 400
+[02-Jul-2017 09:21:12 UTC] PHP Fatal error:  Call to a member function getMimeType() on string in /home1/goldserv/public_html/gp/app/Models/GoogleDrvObj.php on line 509
+[02-Jul-2017 09:24:49 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home1/goldserv/public_html/gp/app/Models/GoogleDrvObj.php on line 402
+[02-Jul-2017 13:34:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/goldserv/public_html/gp/storage/framework/views/45236ec8f0c2ffaf28b17ceeaeb0b4647c80b140.php on line 9
+[02-Jul-2017 13:35:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/goldserv/public_html/gp/storage/framework/views/45236ec8f0c2ffaf28b17ceeaeb0b4647c80b140.php on line 9
+[02-Jul-2017 13:35:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/goldserv/public_html/gp/storage/framework/views/45236ec8f0c2ffaf28b17ceeaeb0b4647c80b140.php on line 9
+[02-Jul-2017 13:35:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/goldserv/public_html/gp/storage/framework/views/45236ec8f0c2ffaf28b17ceeaeb0b4647c80b140.php on line 9
+[02-Jul-2017 13:41:55 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home1/goldserv/public_html/gp/app/Http/Controllers/AdminController.php on line 81
+[07-Jul-2017 09:47:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/goldserv/public_html/gp/app/Models/GoogleDrvObj.php on line 392
+[07-Jul-2017 09:48:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/goldserv/public_html/gp/app/Models/GoogleDrvObj.php on line 392
